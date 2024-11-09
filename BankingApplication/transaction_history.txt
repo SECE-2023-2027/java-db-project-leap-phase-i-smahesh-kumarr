@@ -1,0 +1,7 @@
+2024-11-09 14:44:35 | Deposit | Account Id : 1 | Amount : 2323.00
+2024-11-09 15:12:36 | Withdraw | Account Id : 1 | Amount : 2303.00
+2024-11-09 15:25:21 | Withdraw | Account Id : 1 | Amount : 5000.00
+2024-11-09 15:51:11 | TransferOUT | Account Id : 1 | Amount : 1000.00
+2024-11-09 15:51:11 | TransferIN | Account Id : 1 | Amount : 1000.00
+2024-11-09 15:51:59 | TransferOUT | Account Id : 1 | Amount : 1000.00
+2024-11-09 15:51:59 | TransferIN | Account Id : 2 | Amount : 1000.00

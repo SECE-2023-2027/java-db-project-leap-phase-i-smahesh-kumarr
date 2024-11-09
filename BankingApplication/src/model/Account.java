@@ -2,7 +2,6 @@ package model;
 
 public abstract class Account {
 	public Account(int accountId, int customerId, Bank bank, String accountType, double balance) {
-		super();
 		this.accountId = accountId;
 		this.customerId = customerId;
 		this.bank = bank;
@@ -46,5 +45,5 @@ public abstract class Account {
 		this.balance = balance;
 	}
 	
-	
+	public abstract String getAccountDetails();
 }

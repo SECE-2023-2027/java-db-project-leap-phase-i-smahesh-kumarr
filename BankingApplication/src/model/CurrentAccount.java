@@ -16,7 +16,17 @@ public class CurrentAccount extends Account {
 		this.overDraft = overDraft;
 	}
 	
-
+	@Override
+	public String getAccountDetails() {
+		return "Current Account with overdraft limit " + this.overDraft;
+	}
+	
+	@Override 
+	public String toString() {
+		return "Current Account Details : Account Id"+this.getAccountId() +"Customer Id"+this.getCustomerId()+
+				"Bank: "+this.getBank()+"accountType: "+this.getAccountType()+
+				"balance: "+this.getBalance() + "overdraftLimit: "+this.getOverDraft();				
+	}
 
    
 }
